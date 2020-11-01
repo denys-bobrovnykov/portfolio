@@ -1,0 +1,17 @@
+.result:first-child{
+    background-color: rgba(214, 233, 171, 0.658);
+}
+.stats-container {
+    font-size: 25px;
+}
+.result, tr, th ,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.result th {
+    text-align: left;
+    padding: 5px;
+}
+.result td {
+    padding: 5px;
+}

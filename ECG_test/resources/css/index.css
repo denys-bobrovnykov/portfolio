@@ -1,0 +1,27 @@
+#mode-select {
+    min-width: 350px;
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+}
+#mode-select label{
+    zoom: 1.5;
+}
+.stats-label {
+    position: relative;
+    top: -30px;
+}
+ol {
+    display: grid;
+    gap:10px;
+    min-width: 280px;
+    font-family: Georgia-bold;
+    word-spacing: 0.3em;
+    letter-spacing: 0.1em;
+}
+.go-button {
+    border-radius: 20px;
+    width: 50%;
+    margin-top: 15px;
+}
+

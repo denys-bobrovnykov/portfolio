@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECG test practice</title>
+    <link rel="stylesheet" href="./resources/css/gen-layout.css">
+    <link rel="stylesheet" href="./resources/css/index.css">
+    <script src="./app/index/index.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <h1>Головне меню</h1>
+        <hr>
+        <nav>
+            <button class="nav-stats"><a href="./statistic.html">Результати</a></button>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <h2>Обери розділи для тренування</h2>
+        <form action="#" id="mode-select">
+            <ol>
+                <li><input name="chapters" type="checkbox" value="1" class="chapter" >НОРМАЛЬНА ЕКГ</li>
+                <li><input name="chapters" type="checkbox" value="2" class="chapter">ЕКГ ПРИ ГIПЕРТРОФIЇ ПЕРЕДСЕРДЬ I ШЛУНОЧКIВ</li>
+                <li><input name="chapters" type="checkbox" value="3" class="chapter">ЕКГ ПРИ ПОРУШЕННЯХ ВНУТРIШНЬОШЛУНОЧКОВОЇ ПРОВIДНОСТI</li>
+                <li><input name="chapters" type="checkbox" value="4" class="chapter">ЕЛЕКТРОКАРДІОГРАФІЧНІ СИНДРОМИ ТА ФЕНОМЕНИ</li>
+                <li><input name="chapters" type="checkbox" value="5" class="chapter">ФУНКЦІОНАЛЬНІ ПРОБИ</li>
+                <li><input name="chapters" type="checkbox" value="6" class="chapter">ЕКГ ПРИ IШЕМIЧНIЙ ХВОРОБI СЕРЦЯ</li>
+                <li><input name="chapters" type="checkbox" value="7" class="chapter">ЕКГ ПРИ ПОРУШЕННI АВТОМАТИЗМУ</li>
+                <li><input name="chapters" type="checkbox" value="8" class="chapter">ЕКГ ПРИ ЕКСТРАСИСТОЛIЇ ТА ПАРОКСИЗМАЛЬНИХ ТАХІАРИТМІЯХ</li>
+                <li><input name="chapters" type="checkbox" value="9" class="chapter">ЕКГ ПРИ СИНОАТРIАЛЬНИХ, МIЖПЕРЕДСЕРДНИХ ТА АТРIОВЕНТРИКУЛЯРНИХ БЛОКАДАХ</li>
+                <li><input name="chapters" type="checkbox" value="10" class="chapter">ЕКГ ПРИ ПОРУШЕННЯХ ЕЛЕКТРОЛIТНОГО ОБМIНУ, ДЕЯКИХ ХВОРОБАХ І СТАНАХ</li>
+                <li><input name="chapters" type="checkbox" value="11" class="chapter">ДIАГНОСТИКА ВАД СЕРЦЯ</li>
+                <li><input name="chapters" type="checkbox" value="12" class="chapter">ЕХОКАРДІОГРАФІЯ</li>
+                <li><input name="chapters" type="checkbox" value="13" class="chapter">ФУНКЦІОНАЛЬНІ МЕТОДИ ДОСЛІДЖЕННЯ ДИХАЛЬНОЇ ТА НЕРВОВОЇ СИСТЕМ</li>
+                <li><input name="chapters" type="checkbox" value="14" class="chapter">IНШI ФУНКЦIОНАЛЬНI МЕТОДИ ДОСЛIДЖЕННЯ СЕРЦЯ ТА СУДИН</li>
+                <li><input name="chapters" type="checkbox" value="15" class="chapter">НЕВІДКЛАДНІ СТАНИ</li>
+                <li><input name="chapters" type="checkbox" value="16" class="chapter">СИТУАЦІЙНІ ЗАВДАННЯ</li>
+            </ol>
+            <h2>Обери режим відображення</h2>
+            <!-- <label>Practice
+                <input name="mode" type="radio" value="practice" checked>
+            </label> -->
+            <!-- <label>Test
+                <input name="mode" type="radio" value="test">
+            </label> -->
+            <label>Випадковий порядок
+                <input name="random" type="radio" value="1" checked>
+            </label>
+            <label>По черзі
+                <input name="random" type="radio" value="0">
+            </label>
+            <button class="go-button">Почати</button>
+        </form>
+    </main>
+</body>
+</html>
