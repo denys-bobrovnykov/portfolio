@@ -1,2 +1,2 @@
 # Welcome!
-#Here is my learning and personal projects
+##Here are some of my learning and personal projects.
