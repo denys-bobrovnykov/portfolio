@@ -1,0 +1,28 @@
+body {
+    font-family: Helvetica;
+}
+header h1 { 
+    text-align: center;
+    background-image: url(/resources/images/pattern.jpeg);
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+}
+.article-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+#brushes .article-title {
+    background-color: mediumspringgreen;
+}
+#frames .article-title {
+    background-color: lightcoral;
+}
+#paint .article-title {
+    background-color: skyblue;
+}
+span {
+    font-weight: bold;
+    color: blue;
+}
