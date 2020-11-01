@@ -6,9 +6,10 @@ Use case:
 
 When user first time visits index.html JS script uploads DB to LocalStorage as JSONs.
 
-User selects chapters and choses Random or In sequence questions display and presses Go.
-    -Application displays test page. 
+<ul>User selects chapters and choses Random or In sequence questions display and presses Go.
+    -<li>Application displays test page.</li> 
     -User ticks answers and presses Check to display correct answers overlay.
     -User goes to main page which triggers current session statistic save event.
+</ul>
 
 User selects Statistics which displays page with 5 last sessions results.
