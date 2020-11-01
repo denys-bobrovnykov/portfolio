@@ -22,6 +22,7 @@
     padding: 0 2.58rem .33rem 2.58rem;
     line-height: 1.13;
     text-align: center;
+    list-style: none;
     font-weight: 600;
     font-size: .83rem;
     transition: color .25s;

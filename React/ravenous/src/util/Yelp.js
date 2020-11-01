@@ -29,9 +29,10 @@ const Yelp = {
                         }
                         throw new Error('Load failed!');
                     
-                    }).catch(error => console.log(error));
+                    }).catch(error => {
+                        console.log(error);
+                    });
     }
-
 }
 
 export default Yelp;
